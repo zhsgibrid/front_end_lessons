@@ -1,0 +1,227 @@
+/* font-family: 'Montserrat Alternates', sans-serif; */
+html{
+    width: 1200px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#section_1 {
+    float: right;
+    display: block;
+    width: 830px;
+    border: 0px;
+    margin: 0px;
+   
+    }
+#section_2{
+        float: left;
+        display: block;
+        width: 370px;
+        border: 0px; 
+        margin: 0px;
+        
+        }
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.color--red{
+    color: #FB6D3A;
+}
+
+ 
+.portfolio{
+    padding-top: 102px;
+    padding-left: 88px;
+
+
+}
+.portfolio__roli-container{
+    max-width: 443px;
+    margin-bottom: 64px;
+}
+.portfolio_roli{
+        
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 19px;
+}
+.portfolio_name{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 24px;
+    }
+    .portfolio_dash{
+     margin-left: 23px;
+     margin-right: 3px;
+     border-bottom-style: dashed;
+     border-bottom-width: 1px;
+     border-color:#A8A8A8; 
+
+/* border-width: 88.36px;
+height: 0px;
+border: 1px dashed #A8A8A8; */
+    }
+    #a{ padding-left: 88.36px;}
+    #b{padding-left: 93.19px; }
+    #c{padding-left: 112.5px;}
+.portfolio_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    
+    
+}
+.portfolio__projects-container{
+    max-width: 485px;
+    margin-bottom: 51px;
+}
+.portfolio_contain{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 8px;
+
+}
+
+ol,ul{
+    margin-left: 20px;
+     /* не понимаю почему 88px не выходит, а 20px норм.
+     с боковым списком при необходимых 40 использовала 40. 
+     думаю что, что то считается относительно друг друга неправильно, но пока не поняла что(  */
+         }
+
+.portfolio__experience{
+    max-width: 509px;
+    margin-bottom: 16px;
+}
+.portfolio_contain-exp{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 12px;
+
+}
+.portfolio__sub-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 11px; 
+}
+.portfolio_text-fones{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 8px; 
+}
+.portfolio__education{
+    max-width: 327px;
+    margin-top: 43px;
+}
+
+.contact{
+position: absolute;
+width: 370px;
+height: 1319px;
+background: #1E2939;
+}
+
+.contact_picture{
+margin-top: 40px;
+}
+.contact_roli{
+
+    padding-top: 51px ;
+    padding-left: 40px ;
+    padding-bottom: 26px ;
+    /* padding:51px 40px ; */
+
+}
+.contact_roli{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    
+}
+
+#blok_1 {
+    float:left ;
+    display: block;
+    width: 26px;
+    border: 0px;
+    margin: 0px;
+   margin-left: 40px;
+    }
+#blok_2{
+        float: right;
+        display: block;
+        width: 157px;
+        border: 0px; 
+        margin: 0px;
+        margin-right: 147px;
+        margin-bottom: 47px;
+       
+    }
+    .contact_contane{
+
+        font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+    }
+.contact_letter{
+    font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+
+}
+.contact_text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+   
+}
+.contact_skills{
+    font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+color: #FFFFFF;
+margin-left: 40px;
+margin-bottom: 8px;
+}
+.contact_text-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 44px; 
+
+   }
+   .contact_text-text li{
+   margin-left: 40px;
+  
+ 
+}
+  
+.contact_text-text li::marker{
+    color: #FB6D3A;
+ 
+}
