@@ -3,14 +3,13 @@
     padding: 0px;
     margin: 0px;
 }
-
 :root{
     --main-font:'Open Sans', sans-serif;
     --main-title:#070707;
 }
 body{
     font-family: var(--main-font);
-    
+  
 
 }
 .container{
@@ -51,7 +50,7 @@ margin-bottom: 38px;
 .header__img{
 width: 943px;
 height: 387px;
-background-image: url(./img/BSPP2266x940.jpg);
+background-image: url(../img/BSPP2266x940.jpg);
 background-size:cover ;
 background-repeat: no-repeat;
 background-position: center;
