@@ -1,0 +1,273 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --main-font:'Open Sans', sans-serif;
+    --main-font-color:#070707;
+    --icon-text-color: #828282;
+}
+
+body{
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+}
+
+.container{
+    width: 100%;
+    min-width: 300px;
+    max-width: 946px;
+    margin: 0px auto;
+}
+.sub-title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+}
+.text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+section:nth-child(2n){
+    background-color: #f6f6f6;
+}
+/* global style end */
+.header__menu-item{
+    list-style: none;
+}
+.header__menu {
+    padding: 29px 0;
+    margin-bottom: 33px;
+    border-bottom: 1px solid var(--icon-text-color);
+}
+
+.header__menu-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.header__menu-title{
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #828282;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: all 0.5s;
+}
+
+.header__menu-title:hover {
+   color: var(--main-font-color);
+   transform: scale(1.2);
+}
+.header__title{
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 64px;
+    margin-bottom: 38px;
+}
+.header__img{
+    width: 100%;
+    min-width:300px ;
+    max-width: 943px;
+    height: 387px;
+    background-image: url(./img/BSPP2266x940.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
+}
+.about-me{
+    padding: 100px 0;
+}
+
+.about-me__container{
+    max-width: 480px;
+}
+.about-me__sub-title{
+    margin-bottom: 28px;
+    text-align: center;
+}
+.about-me__text{
+    margin-bottom: 28px;
+}
+.about-me__text:last-child {
+    margin-bottom: 0px ;
+}
+/* Section skills */
+.skills {
+    padding: 100px 0 83px;
+}
+
+.skills__title {
+    margin-bottom: 23px;
+}
+
+.skills__text {
+    margin-bottom: 78px;
+}
+
+.skills__sub-title {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+.skills__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__item {
+    width: 166px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills__icon {
+    margin: 0 auto 22px;
+}
+
+.skills .is-active path {
+    fill: var(--main-font-color);
+}
+
+.skills__bar {
+    margin-top: auto; 
+}
+
+.skills__sub-title {
+    margin-bottom: 59px;
+}
+.skills__sub-title:last-child {
+    margin-bottom: 200px;
+}
+
+.skills__bar-item {
+    margin: 0 4px;
+    display: inline-block;
+}
+/* Section skills End*/
+
+.portfolio{
+    padding: 119px 0;
+}
+
+.portfolio__container{
+    max-width: 936px;
+}
+
+.portfolio_title{
+    margin: 0 0 68px;
+}
+   
+.portfolio__img{  
+    width: 100%;
+    min-width: 300px;
+    max-width: 936px;
+    height:510px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(./img/Слой\ 8.jpg);
+}
+
+.portfolio__img1{  
+    width: 100%;
+    min-width: 300px;
+    max-width: 936px;
+    height:510px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(./img/reebok_web.jpg);
+  
+}
+.portfolio__img2{  
+    width: 100%;
+    min-width: 300px;
+    max-width: 936px;
+    height:510px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(./img/camera.jpg);
+}
+    
+.portfolio__text{
+    margin-bottom: 129px;
+}
+     
+.portfolio__text:last-child{
+    margin-bottom: 101px;
+}
+
+.contacts__container{
+    display: block;
+    margin: 0 auto;
+    max-width: 341px;
+    margin-bottom: 159px;
+}
+
+.contacts__sub-title{
+    margin: 101px 0 21px;
+}
+
+.text__contacts{
+    width: 275px;
+    margin-left: 36px;
+}
+.btn1 {
+    display: inline-block; 
+    box-sizing: border-box;
+    border: 1px solid var(--main-font-color);
+    border-radius: 25px;
+    height: 42px;
+    width: 180px;
+    margin: 78px 80px 37px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #fff;
+    background-color: var(--main-font-color);
+    touch-action: manipulation; 
+    vertical-align: top;
+    transition: box-shadow 0.5s;
+}
+
+.btn1:hover {
+  transform: scaleY(1.2);
+}
+
+.contacts_img{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.img{
+    width: 40px;
+}
+
+.contacts_link{
+    width: 243px;
+    margin-left: 51px;
+}
+
+.contacts_text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+}
+    
