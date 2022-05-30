@@ -1,0 +1,245 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    
+    width: 1400px;
+    height: 900px;
+    background-color: #2B81AC;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.title{
+    width: 1350px;
+    height: 850px;
+    background-color:#3399CC;
+    border: 25px;
+    border-color: #2B81AC;
+    /* display: inline-block; */
+}
+
+.parag{
+    
+position: absolute;
+width: 224px;
+height: 25.28px;
+left: 110px;
+top: 66.1px;
+font-family: 'Lucida Sans Unicode';
+font-size: 21px;
+line-height: 25px;
+color: #FFFFFF;
+}
+
+.wi-sunrise{
+font-weight: 400;
+font-size: 27px;
+line-height: 39px;
+
+}
+
+.weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        font-size: 22px;
+line-height: 26px;
+font-family: 'Lucida Sans Unicode';
+text-align: center;
+margin-top: 131px;
+color: #FFFFFF;
+margin-bottom: 37px;
+
+}
+
+.town{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    height: 592px;
+    /* margin: 2px; */
+    /* box-sizing: border-box; */
+border: 2px solid #FFFFFF;
+cursor: pointer;
+
+}
+.lisbon{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* width: 579px; */
+    height: 25%;
+    background:#70B8DB;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    
+}
+.lisbon__weather{
+     width: 108px; 
+     height: 94px;
+    
+}
+.tempereture{
+    /* display: flex;
+    align-items:baseline; */
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 19px;
+}
+.wi{
+    
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 61px;
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+.paris{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    /* width: 287.5px; */
+    height: 25%;
+    background:#33CCCC;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+}
+.belgrade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    /* width: 287.5px; */
+    height: 25%;
+    background:#996699;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+}
+.belgrade__weather{
+    width: 122px; 
+    height: 94px;
+}
+.venice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    /* width: 287.5px; */
+    height: 25%;
+    background:#C24747;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+}
+.tel-avive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    /* width: 287.5px; */
+    height: 25%;
+    background:#E2674A;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+}
+.tel-avive__weather{
+    width: 115px;
+    height: 94px;
+}
+.cair{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    /* width: 287.5px; */
+    height: 25%;
+    background:#FFCC66;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+}
+.new-york{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    /* width: 287.5px; */
+    height: 25%;
+    background:#99CC99;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+}
+.new-delhi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    /* width: 287.5px; */
+    height: 25%;
+    background:#669999;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+}
+.san-francisco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* width: 287.5px; */
+    height: 25%;
+    background:#CC6699;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+}
+.san-francisco__weather{
+    width: 154px;
+    height: 94px;
+}
+.tokyo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    /* width: 287.5px; */
+    height: 25%;
+    background:#339966;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+}
+.tokyo__weather{
+    width: 95px;
+    height: 94px;
+}
+.sydney{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* width: 287.5px; */
+    height: 25%;
+    background:#666699;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+}
+.sydney__weather{
+    width: 100px;
+    height: 94px;
+}
+    
+ .footer{
+
+    position: absolute;
+width: 549px;
+height: 25px;
+left: 112px;
+font-family: 'Lucida Sans Unicode';
+font-size: 16px;
+line-height: 19px;
+
+    color: #FFFFFF;
+ }  
