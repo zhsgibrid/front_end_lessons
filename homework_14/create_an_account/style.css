@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tabs__content{
+    font-family: 'Inter';
+    font-weight: 400;
+    width: 540px;
+    height: 590px;
+    background-color: #fff;
+}
+.text__title{
+padding-top:32px;
+padding-left: 36px;  
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: -0.4px;
+color: #1C1C1C;
+margin-bottom: 20px;
+}
+.tabs__content-name{
+    display: flex;
+    padding-left: 34px; 
+    margin-bottom: 20px;
+    
+}
+.tabs__content-tab{
+    display: flex;
+    flex-direction: column;   
+padding-right: 12px;
+}
+.lable{
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 15px;
+line-height: 22px;
+letter-spacing: -0.2px;
+color: #545454;
+
+}
+.input-field{
+      width: 245px;
+    height: 38px;
+    background: #FFFFFF;
+border: 1px solid #E4E4E4;
+border-radius: 6px;
+margin-top: 7px;
+box-sizing: border-box;
+}
+.tabs__content-name-1{
+  margin-left: 36px;
+    margin-bottom: 7px;
+}
+.input-field-1{
+  width: 500px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    margin-top: 7px;
+}
+.text__sub-title{
+    font-size: 13px;
+line-height: 18px;
+letter-spacing: -0.1px;
+color: #969696;
+padding-left: 36px;
+margin-bottom: 27px;
+}
+.radio-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 36px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    color: #545454;
+    margin-bottom: 20px;
+}
+.radio-label{
+    display: block;
+    position: relative;
+    padding-left: 37px;
+
+    padding-right:62px;
+
+}
+.radio-label input{
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.radio-custom-mark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #eee;
+}
+
+.radio-label input:checked ~ .radio-custom-mark{
+    background-color: #007BFF;
+}
+.radio-custom-mark:after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+.radio-label input:checked ~ .radio-custom-mark:after{
+    display: block;
+}
+.radio-label .radio-custom-mark:after{
+    top:6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+/* .radio-custom{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.radio-custom+label{
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+.radio-custom+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+  .radio-custom:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #b3d7ff;
+}
+.radio-custom:not(:disabled):active+label::before {
+    background-color: #b3d7ff;
+    border-color: #b3d7ff; */
+/* } */
+.select-wrapper{
+   padding-right: 10px;
+}
+.select-country{
+    display: flex;
+    flex-direction: row;
+    padding-left: 36px;
+    padding-bottom: 20px;
+}
+
+#select{
+    appearance: none;
+    background: #fff url("arrow.svg") no-repeat right 10px center;
+    background-size: 18px;
+}
+
+.input-field-2{
+    width: 245px;
+    margin-bottom: 20px;
+    height: 38px;
+    background: #FFFFFF;
+border: 1px solid #E4E4E4;
+border-radius: 6px;
+}
+.input-field-3{
+    position: relative;
+ left: 36px;
+    width: 500px;
+    margin-bottom: 22px;
+    height: 38px;
+    color:#fff;
+    background: #007BFF;
+    border: 1px solid #007BFF;
+border-radius: 6px;
+}
+.text__text{
+width: 410px; 
+padding-left: 65px;
+}
+.text__text-text{
+font-size: 13px;
+line-height: 18px;
+text-align: center;
+letter-spacing: -0.1px;
+color: #969696;
+margin-bottom:20px ;
+}
+
+hr{
+    position: relative;
+    left: 36px;
+background: #E4E4E4;
+    margin-bottom: 20px;
+
+}
+.text__footer{
+    font-size: 15px;
+line-height: 22px;
+text-align: center;
+letter-spacing: -0.2px;
+color: #545454;
+padding-bottom: 16px;
+}

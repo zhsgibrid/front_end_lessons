@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tabs__content{
+    font-family: 'Inter';
+    font-weight: 400;
+    width: 540px;
+    height: 590px;
+    background-color: #fff;
+}
+.text__title{
+
+padding-top:32px;
+padding-left: 36px;  
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: -0.4px;
+color: #1C1C1C;
+
+margin-bottom: 20px;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    width: 278px;
+    height: 80px;
+    padding-left: 35px;
+    margin-bottom: 20px;
+   
+
+    
+}
+.input_field_photo{
+    width: 138px;
+    height: 30px;
+box-sizing: border-box;
+margin-top: 11px;
+margin-left: 20px;
+margin-right: 10px;
+background: #FFFFFF;
+border: 1px solid #E4E4E4;
+border-radius: 6px;
+margin-bottom: 9px;
+
+    background: #fff url("./Camera.svg") no-repeat right 8px center;
+    background-size: 18px;
+
+}
+.input_field_delet{
+width: 30px;
+height: 30px;
+box-sizing: border-box;
+margin-top: 11px;
+background: #FFFFFF;
+border: 1px solid #E4E4E4;
+border-radius: 6px;
+margin-bottom: 9px;
+background: #fff url("./Trash.svg") no-repeat right 6px center;
+    background-size: 16px;
+
+}
+.img__text{
+position: relative;
+left:20px;
+    font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+letter-spacing: -0.1px;
+
+color: #969696;
+
+}
+
+
+.tabs__content-name{
+    display: flex;
+    padding-left: 34px; 
+    margin-bottom: 20px;
+    
+}
+.tabs__content-tab{
+    display: flex;
+    flex-direction: column;   
+padding-right: 12px;
+}
+
+.lable{
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 15px;
+line-height: 22px;
+letter-spacing: -0.2px;
+color: #545454;
+
+}
+.input-field{
+      width: 245px;
+    height: 38px;
+    background: #FFFFFF;
+border: 1px solid #E4E4E4;
+border-radius: 6px;
+margin-top: 7px;
+box-sizing: border-box;
+}
+
+
+
+.select-wrapper{
+  padding-right: 10px;
+}
+.select-country{
+    display: flex;
+    flex-direction: row;
+    padding-left: 36px;
+    padding-bottom: 20px;
+}
+
+#select{
+    appearance: none;
+   
+    background: #fff url("arrow.svg") no-repeat right 10px center;
+    background-size: 18px;
+}
+
+.input-field-2{
+   
+    width: 245px;
+    margin-bottom: 20px;
+    height: 38px;
+    background: #FFFFFF;
+border: 1px solid #E4E4E4;
+border-radius: 6px;
+}
+.input-field-3{
+    color:#fff;
+    position: relative;
+ left: 35px;
+    width: 150px;
+    margin-bottom: 22px;
+    height: 38px;
+    background: #007BFF;
+border: 1px solid #007BFF;
+border-radius: 6px;
+}
